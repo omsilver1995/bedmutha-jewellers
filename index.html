@@ -1073,6 +1073,7 @@ footer .footer-copy {
     <nav>
       <ul>
         <li><a href="#collections">Collections</a></li>
+        <li><a href="#" onclick="openModal('necklaces'); return false;">Necklaces</a></li>
         <li><a href="#" onclick="openModal('mangalsutra'); return false;">Mangalsutra</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#visit">Visit Us</a></li>
@@ -1146,10 +1147,9 @@ footer .footer-copy {
     <a href="#" onclick="openModal('mangalsutra'); return false;" class="sig-card sig-card-with-photo" style="background-image: url('photos/mangalsutra/ms-05.jpg');">
       <div class="sig-card-label">Mangalsutra<span>Bridal &middot; 22K Gold</span></div>
     </a>
-    <div class="sig-card">
-      <div class="sig-card-placeholder">Product photo<br>coming soon</div>
-      <div class="sig-card-label">Gold Chains<span>Unisex</span></div>
-    </div>
+    <a href="#" onclick="openModal('necklaces'); return false;" class="sig-card sig-card-with-photo" style="background-image: url('photos/necklaces/nk-01.jpg');">
+      <div class="sig-card-label">Gold Necklaces<span>Calcutti Style</span></div>
+    </a>
     <div class="sig-card">
       <div class="sig-card-placeholder">Product photo<br>coming soon</div>
       <div class="sig-card-label">Gold Bangles<span>Classic</span></div>
@@ -1299,6 +1299,7 @@ footer .footer-copy {
   <div class="footer-tagline">"Elegance Is Not Being Noticed, It's About Being Remembered."</div>
   <div class="footer-links">
     <a href="#collections">Collections</a>
+    <a href="#" onclick="openModal('necklaces'); return false;">Necklaces</a>
     <a href="#" onclick="openModal('mangalsutra'); return false;">Mangalsutra</a>
     <a href="#about">About</a>
     <a href="#visit">Visit</a>
@@ -1315,6 +1316,34 @@ footer .footer-copy {
 <a href="https://wa.me/919822530333?text=Hi%20Bedmutha%20Jewellers%2C%20I%20would%20like%20to%20know%20more." class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.449C12.831-3.984.106 1.407.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652a11.87 11.87 0 005.71 1.454h.005c9.418 0 15.244-10.19 10.54-18.313a11.85 11.85 0 00-2.07-2.04z"/></svg>
 </a>
+
+<!-- ============ NECKLACES MODAL ============ -->
+<div class="modal-overlay" id="modal-necklaces" role="dialog" aria-modal="true" aria-labelledby="modal-necklaces-title">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('necklaces')" aria-label="Close">&times;</button>
+    <div class="modal-eyebrow">Gold Necklaces</div>
+    <h2 class="modal-title" id="modal-necklaces-title">Calcutti <em>Necklaces</em></h2>
+    <p class="modal-subtitle">
+      Heavyweight 22K gold Calcutti-style necklaces &mdash; intricate filigree,
+      pendant drops, ranging roughly 8&ndash;12 grams. Tap any piece to zoom, or WhatsApp us for today's rates.
+    </p>
+    <div class="modal-grid">
+      <div class="modal-item"><img src="photos/necklaces/nk-01.jpg" alt="Calcutti Necklace 1" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-02.jpg" alt="Calcutti Necklace 2" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-03.jpg" alt="Calcutti Necklace 3" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-04.jpg" alt="Calcutti Necklace 4" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-05.jpg" alt="Calcutti Necklace 5" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-06.jpg" alt="Calcutti Necklace 6" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-07.jpg" alt="Calcutti Necklace 7" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-08.jpg" alt="Calcutti Necklace 8" loading="lazy"></div>
+      <div class="modal-item"><img src="photos/necklaces/nk-09.jpg" alt="Calcutti Necklace 9" loading="lazy"></div>
+    </div>
+    <p class="modal-footnote">
+      Like something? <a href="https://wa.me/919822530333?text=Hi%20Bedmutha%20Jewellers%2C%20I%27d%20like%20to%20see%20more%20necklace%20designs." target="_blank" rel="noopener">Message us on WhatsApp</a>
+      or <a href="https://www.instagram.com/bedmuthajewellers" target="_blank" rel="noopener">see more @bedmuthajewellers</a>.
+    </p>
+  </div>
+</div>
 
 <!-- ============ MANGALSUTRA MODAL ============ -->
 <div class="modal-overlay" id="modal-mangalsutra" role="dialog" aria-modal="true" aria-labelledby="modal-mangalsutra-title">
